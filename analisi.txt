@@ -1,0 +1,5 @@
+Leggendo la traccia fornita, capiamo subito che per tenere traccia di tutti gli studenti dell'insegnante dobbiamo creare un'entità "Studenti", la quale dovrà contenere i seguenti attributi: Nome, Cognome, Foto (la quale abbiamo deciso di tenere come path per non appesantire il db con un valore Blob). Infine, conterrà gli attributi opzionali email e numero di telefono, dei quali il futuro applicativo si occuperà di averne almeno uno obbligatorio.
+
+Per quanto riguarda le note sullo studente, abbiamo discusso se tenerne traccia come entità o come attributo contenuto in "Studente". La scelta è ricaduta sul metterlo come attributo dell'entità "Studente", dato che la traccia parlava di una sola nota per ciascun studente. Inoltre, è stato messo come opzionale poiché la traccia lo considera tale.
+
+Successivamente, la traccia voleva tenere conto anche dell'anno in cui quel determinato studente frequenta quella determinata classe. A questo proposito, abbiamo creato l'entità "Classe", con due attributi: la lettera e la sezione. E sulla relazione N:N tra "Studenti" e "Classi", abbiamo inserito un attributo di relazione "anno".
