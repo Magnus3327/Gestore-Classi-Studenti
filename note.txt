@@ -1,0 +1,15 @@
+Creare:
+    -Pagina per ogni funzione(add, edit, delete), con lo stesso stile ma con una checkbox su ogni <li>.
+    Il collegamento di quella funzione deve essere evidenziato così da far capire che si sta usando quella specifica funzione.
+
+    Per "add" bisogna fare una pagina diversa in base a quello che si sta aggiungendo, per lo studente si fa una copia della pagina di default dello studente, ma con il tasto salva in basso.
+
+    -Pagina Filtri, con la ricerca su diversi campi.
+
+    -Pagina dello studente.
+
+    -Lista Anni
+    -Lista Classi
+    -Lista studenti
+
+    
