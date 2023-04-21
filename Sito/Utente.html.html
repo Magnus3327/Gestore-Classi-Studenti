@@ -155,43 +155,6 @@
         <button class="button">9</button>
         <button class="button">10</button>
     </div>
-    <script>
-        var buttons = document.querySelectorAll('.button');
-        for (var i = 0; i < buttons.length; i++) {
-            buttons[i].addEventListener('click', function() {
-                for (var j = 0; j < buttons.length; j++) {
-                    buttons[j].classList.remove('selezionato');
-                    if (j > 4) {
-                        buttons[j].classList.add('verde');
-                        buttons[j].classList.remove('rosso');
-                    } else {
-                        buttons[j].classList.add('rosso');
-                        buttons[j].classList.remove('verde');
-                    }
-                }
-                this.classList.add('selezionato');
-            });
-        }
-
-        var selectField = document.querySelector('#select-field');
-        var inputField = document.querySelector('.menu input[type="text"]');
-        var updateButton = document.querySelector('#update-button');
-        updateButton.addEventListener('click', function() {
-            var colName = selectField.value;
-            var newValue = inputField.value;
-            var rows = document.querySelectorAll('table tr');
-            for (var i = 0; i < rows.length; i++) {
-                var row = rows[i];
-                var th = row.querySelector('th');
-                var td = row.querySelector('td');
-                if (th && td && th.textContent.trim().toLowerCase() === colName) {
-                    td.textContent = newValue;
-                    break;
-                }
-            }
-            selectField.value = '';
-            inputField.value = '';
-        });
-    </script>
+    
 </body>
 </html>
