@@ -6,16 +6,17 @@ body {
 
 .search-bar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 50px;
     position: relative;
     width: 50%;
     margin: 30px auto 0;
+    /*cambiare margin right*/
 }
 
 .search-bar input[type="text"] {
-    width: 100%;
+    flex-grow: 1;
     height: 30px;
     border-radius: 5px;
     border: none;
@@ -23,7 +24,8 @@ body {
     font-size: 16px;
 }
 
-.search-bar button {
+.search-bar button,
+.search-bar a {
     background-color: #3c3232;
     color: #ffffff;
     font-size: 20px;
@@ -32,24 +34,9 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 10px;
 }
 
-.search-bar button:hover {
-    background-color: #684b4b;
-}
-
-.search-bar a{
-    background-color: #3c3232;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
+.search-bar button:hover,
 .search-bar a:hover {
     background-color: #684b4b;
 }
