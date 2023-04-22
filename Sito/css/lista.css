@@ -5,14 +5,12 @@ body {
 }
 
 .search-bar {
+    margin-top: 50px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 50px;
-    position: relative;
-    width: 50%;
-    margin: 30px auto 0;
-    /*cambiare margin right*/
+    width: 100%;
+    justify-content: center;
 }
 
 .search-bar input[type="text"] {
@@ -33,7 +31,7 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    text-decoration:none;
 }
 
 .search-bar button:hover,
