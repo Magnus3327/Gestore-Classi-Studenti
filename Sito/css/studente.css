@@ -20,6 +20,9 @@ header {
     margin-bottom: 20px;
 }
 
+.student-image:hover {
+    cursor: pointer;
+}
 
 h1 {
     font-size: 24px;
