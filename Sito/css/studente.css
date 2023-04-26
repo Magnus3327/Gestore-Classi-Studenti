@@ -1,0 +1,91 @@
+body {
+    background: radial-gradient(#e10000b6, #6a6a6a) no-repeat fixed;
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: radial-gradient(#e10000b6, #6a6a6a) no-repeat fixed;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);  /* il box foto rotondo, bisogna fare hover */
+}
+
+.student-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.student-image:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+#select-field {
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+#update-button {
+    background-color: #3c3232;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#update-button:hover {
+    background-color: #684b4b;
+}
+
+/* Tabella */
+table {
+    margin: 70px auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(197, 18, 18, 0.1);
+    border-radius: 5px;
+    border: 2px solid #684b4b;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #684b4b;
+    border-top: 2px solid #684b4b;
+}
+
+th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    border-top: 2px solid #684b4b;
+}

@@ -1,25 +1,22 @@
 body{
-	background: radial-gradient(#e10000b6, #6a6a6a) no-repeat fixed;
-	font-size: 14px;
-	font-family: Verdana;
+    background: radial-gradient(#e10000b6, #6a6a6a) no-repeat fixed;
+    font-size: 14px;
+    font-family: Verdana;
 }
 
 label {
-    font-family: sans-serif;
+    font-family: 'Courier New';
+    font-weight: bold;
     font-size: 25px;
     color: #3c3232;
-
     margin-top: 17px;
-
     display: block;
 }
 
-
-
 form{
     background: #836b6b;
-	width: 500px;
-	height: 500px;
+    width: 500px;
+    height: 500px;
 
     text-align: center;
 
@@ -36,10 +33,26 @@ form{
 
 img {
     display: block;
-    margin: 20px auto;
-    margin-bottom: 90px;
+    margin: 30px auto;
+    margin-bottom: 70px;
     width: 400px;
     height: 125px;
-    border-radius: 7% 7% 0 0;
+    border-radius: 50px / 25px;
     border: 3px solid #684b4b;
-  }
+}
+
+input[type="submit"] {
+    background-color: #3c3232;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+input[type="submit"]:hover {
+    background-color: #684b4b;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina dello studente</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link type="text/css" rel="stylesheet" href="css/studente.css" /> 
+    </head>
+    <body>
+        <header>
+            <!-- Aggiungere onlick script per cambio immagine, dopo il click deve apparire esplora risorse per caricare la nuova foto, magari si potrebbe mettere anche un alert-->
+            <img src="media/studenteNomeStudente.png" alt="Immagine Studente" class="student-image" />
+
+            <h1><!-- <?php?> --></h1>
+
+            <div class="menu">
+                <select id="select-field">
+                    <option value="">Seleziona un campo</option>
+                    <option value="nome">Nome</option>
+                    <option value="cognome">Cognome</option>
+                    <option value="email">Email</option>
+                    <option value="classe">Classe</option>
+                    <option value="note">Note</option>
+                    <option value="telefono">Numero di Telefono</option>
+                </select>
+                <input type="text" placeholder="Nuovo valore"/>
+                <button id="update-button">Aggiungi</button>
+            </div>
+
+        </header>
+
+        <table class="dati-studente">
+            <tr>
+                <th>Nome:</th>
+                <td><!-- <?php?> --></td>
+            </tr>
+            <tr>
+                <th>Cognome:</th>
+                <td><!-- <?php?> --></td>
+            </tr>
+            <tr>
+                <th>Data di nascita:</th>
+                <td><!-- <?php?> --></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><!-- <?php?> --></td>
+            </tr>
+            <tr>
+                <th>Classe:</th>
+                <td><!-- <?php?> --></td>
+            </tr>
+            <tr>
+                <th>Note:</th>
+                <td><!-- <?php?> --></td>
+            </tr>
+            <tr>
+                <th>Numero di Telefono</th>
+                <td><!-- <?php?> --></td>
+            </tr>
+        </table>
+
+
+     </body>
+</html>
