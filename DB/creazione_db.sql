@@ -2,10 +2,10 @@ drop database if exists applicazione;
 create database applicazione;
 use applicazione;
 
-crate table Anni(
-	id int auto_increment not null,
+create table Anni(
+	id int not null auto_increment,
 	numero varchar (30) not null,
-	primary key (id)
+	primary key id
 )engine=innodb;
 
 create table Classi(
